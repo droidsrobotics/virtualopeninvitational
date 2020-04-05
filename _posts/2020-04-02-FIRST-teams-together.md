@@ -5,6 +5,7 @@ layout: post
 ---
 
 <p>Nineteen FIRST teams have come together to help organize the virtual events, and create medals/trophies for the Virtual Expo and Virtual Open FIRST LEGO League.
+
 <br>
 <br>
 FRC 8027 Not the Droids You Are Looking For, Pennsylvania
