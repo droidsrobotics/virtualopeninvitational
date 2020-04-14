@@ -15,7 +15,8 @@ Here are the places we visited: <br>
 <a href="https://www.youtube.com/watch?v=FxQWvstJOCY">Brazil</a><br>
 <a href="https://youtu.be/DFJNidlvzGY">Romania</a><br>
 <a href="https://youtu.be/NIfYcfPcw0M">South Dakota</a><br>
-Japan (Facebook Video)<br>
+<a href="https://youtu.be/-ZuGegtG8Gs">Japan</a> (Facebook Video)<br>
+
 <br>
 <b>Tuesday:</b><br>
 <br>
