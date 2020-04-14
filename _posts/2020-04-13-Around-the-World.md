@@ -10,9 +10,9 @@ Here are the places we visited: <br>
 <b>Monday:<br></b>
 <br>
 <a href="https://youtu.be/vHxWSLanp_U">Oregon</a><br>
-<a href="https://youtu.be/IaChMEOyGcM">Arkansas</a><br>
+<a href="https://youtu.be/j2x0WpqIlaM">Arkansas</a><br>
 <a href="https://youtu.be/Fp2fQpiTTyA">California</a><br>
-<a href="https://youtu.be/IaChMEOyGcM">Brazil</a><br>
+<a href="https://www.youtube.com/watch?v=FxQWvstJOCY">Brazil</a><br>
 <a href="https://youtu.be/DFJNidlvzGY">Romania</a><br>
 <a href="https://youtu.be/NIfYcfPcw0M">South Dakota</a><br>
 Japan (Facebook Video)<br>
