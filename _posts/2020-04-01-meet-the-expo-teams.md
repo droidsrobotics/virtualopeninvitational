@@ -22,4 +22,12 @@ SmartLunarLEGOKids. Texas
 Green City Builders, Illinois
 <br>
 Durable Dudes, Illinois
+<br>
+I.C.E. Chips White
+<br>
+Bug Bots, California
+<br>
+The Cosmic Narwhals, California
+<br>
+RoboGirls, Massachusetts
 </p>

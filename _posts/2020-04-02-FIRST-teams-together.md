@@ -9,7 +9,7 @@ layout: post
 <br>
 <br>
 FRC 8027 Not the Droids You Are Looking For, Pennsylvania
-<br>Organized Opening and Closing Ceremonies, Organized the Expert Zone, Designed the event logo, Created the event webpage, Designed the event medals, Co-designed and manufactured the event trophies, Designed and Distributed Certificates, Coordinated with all the other FIRST teams to deliver awards, Created Share & Learn.
+<br>Organized Opening and Closing Ceremonies, Organized the Expert Zone, Designed the event logo, Created the event webpage, Designed the event medals, Co-designed and manufactured the event trophies, Designed and Distributed Certificates for the Expo and Open, Coordinated with all the other FIRST teams to deliver awards, Created Share & Learn, Created and hosted a Minecraft server for the event participants to interact with each other.
 <br>
 <br>
 FRC 2080 Torbotics, Louisiana
