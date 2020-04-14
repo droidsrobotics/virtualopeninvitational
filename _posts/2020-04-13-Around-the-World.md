@@ -5,9 +5,9 @@ layout: post
 ---
 <p>Starting on April 13, we asked teams to teach us about their city, state or country. We travelled all over the world in just five days.<br>
 <br>
-Here are the places we visited:
+Here are the places we visited: <br>
 <br>
-Monday:<br>
+<b>Monday:<br></b>
 <br>
 <a href="https://youtu.be/vHxWSLanp_U">Oregon</a><br>
 <a href="https://youtu.be/IaChMEOyGcM">Arkansas</a><br>
@@ -16,8 +16,8 @@ Monday:<br>
 <a href="https://youtu.be/DFJNidlvzGY">Romania</a><br>
 <a href="https://youtu.be/NIfYcfPcw0M">South Dakota</a><br>
 Japan (Facebook Video)<br>
-
-Tuesday:<br>
+<br>
+<b>Tuesday:</b><br>
 <br>
 <a href="https://youtu.be/1aqmR32PSoc">The Netherlands</a><br>
 </p>
