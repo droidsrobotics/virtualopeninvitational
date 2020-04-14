@@ -21,4 +21,8 @@ Here are the places we visited: <br>
 <b>Tuesday:</b><br>
 <br>
 <a href="https://youtu.be/1aqmR32PSoc">The Netherlands</a><br>
+<a href="https://youtu.be/kqHeGEy22JM">Florida</a><br>
+<a href="https://youtu.be/Hx_xFehk8FQ">Texas</a><br>
+<a href="https://youtu.be/U4_zZVf-1PM">Canada</a><br>
+<a href="">India</a><br>
 </p>
