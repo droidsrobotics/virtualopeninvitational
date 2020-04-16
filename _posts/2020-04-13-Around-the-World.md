@@ -24,5 +24,23 @@ Here are the places we visited: <br>
 <a href="https://youtu.be/kqHeGEy22JM">Florida</a><br>
 <a href="https://youtu.be/Hx_xFehk8FQ">Texas</a><br>
 <a href="https://youtu.be/U4_zZVf-1PM">Canada</a><br>
-<a href="">India</a><br>
+<a href="">India (on Facebook only)</a><br>
+<a href="https://www.youtube.com/watch?v=xX9nI4E4oZA&feature=youtu.be&fbclid=IwAR12VHZwY5zwfsDefbSZPhgLo8ZgpGeKJssc7FbzeXX2jte-92bD5lLVPX0">Czech Republic</a><br>
+
+</p>
+
+<br>
+<b>Wednesday:</b><br>
+<br>
+<a href="https://youtu.be/offUywmM9ss">New York</a><br>
+<a href="https://youtu.be/XxkAvSk4riU">Rhode Island</a><br>
+<a href="https://www.youtube.com/playlist?list=PLHAFRqirzpnI-R9FYk3DP8NwjR7yyfRmA  
+">Azerbaijan </a><br>
+<a href="">Trinidad and Tobago (on Facebook only)</a><br>
+</p>
+
+<br>
+<b>Thursday:</b><br>
+<br>
+<a href="https://youtu.be/g59e-WLFndo">Paraguay</a><br>
 </p>
