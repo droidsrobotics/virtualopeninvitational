@@ -24,7 +24,7 @@ Here are the places we visited: <br>
 <a href="https://youtu.be/kqHeGEy22JM">Florida</a><br>
 <a href="https://youtu.be/Hx_xFehk8FQ">Texas</a><br>
 <a href="https://youtu.be/U4_zZVf-1PM">Canada</a><br>
-<a href="">India (on Facebook only)</a><br>
+India (on Facebook only)<br>
 <a href="https://www.youtube.com/watch?v=xX9nI4E4oZA&feature=youtu.be&fbclid=IwAR12VHZwY5zwfsDefbSZPhgLo8ZgpGeKJssc7FbzeXX2jte-92bD5lLVPX0">Czech Republic</a><br>
 
 
@@ -35,19 +35,20 @@ Here are the places we visited: <br>
 <a href="https://youtu.be/XxkAvSk4riU">Rhode Island</a><br>
 <a href="https://www.youtube.com/playlist?list=PLHAFRqirzpnI-R9FYk3DP8NwjR7yyfRmA  
 ">Azerbaijan </a><br>
-<a href="">Trinidad and Tobago (on Facebook only)</a><br>
+<a href="https://youtu.be/jroNRwrZi98">Croatia</a><br>
+Trinidad and Tobago (on Facebook only)<br>
 
 
 <br>
 <b>Thursday:</b><br>
 <br>
 <a href="https://youtu.be/g59e-WLFndo">Paraguay</a><br>
-<a href="https://youtu.be/jroNRwrZi98">Croatia</a><br>
+
 <a href="https://www.youtube.com/watch?v=ugc-3_g1QDo">Washington</a><br>
 <a href="https://youtu.be/kThbWKA92TE">Louisiana</a><br>
 <a href="https://www.youtube.com/watch?v=9mX1wxYVbJI">More about Louisiana</a><br>
 <a href="https://youtu.be/yI0tbuSnWsU">Vietnam</a><br>
 <a href="https://www.youtube.com/watch?v=KbjhK-uxCaE">Utah</a><br>
 <a href="https://youtu.be/0dhcH7Crf3o">Virginia</a><br>
-<a href="">Jordan(on Facebook only)</a><br>
+Jordan(on Facebook only)<br>
 </p>
