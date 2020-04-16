@@ -27,7 +27,6 @@ Here are the places we visited: <br>
 <a href="">India (on Facebook only)</a><br>
 <a href="https://www.youtube.com/watch?v=xX9nI4E4oZA&feature=youtu.be&fbclid=IwAR12VHZwY5zwfsDefbSZPhgLo8ZgpGeKJssc7FbzeXX2jte-92bD5lLVPX0">Czech Republic</a><br>
 
-</p>
 
 <br>
 <b>Wednesday:</b><br>
@@ -37,7 +36,7 @@ Here are the places we visited: <br>
 <a href="https://www.youtube.com/playlist?list=PLHAFRqirzpnI-R9FYk3DP8NwjR7yyfRmA  
 ">Azerbaijan </a><br>
 <a href="">Trinidad and Tobago (on Facebook only)</a><br>
-</p>
+
 
 <br>
 <b>Thursday:</b><br>
