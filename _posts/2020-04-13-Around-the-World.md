@@ -42,4 +42,12 @@ Here are the places we visited: <br>
 <b>Thursday:</b><br>
 <br>
 <a href="https://youtu.be/g59e-WLFndo">Paraguay</a><br>
+<a href="https://youtu.be/jroNRwrZi98">Croatia</a><br>
+<a href="https://www.youtube.com/watch?v=ugc-3_g1QDo">Washington</a><br>
+<a href="https://youtu.be/kThbWKA92TE">Louisiana</a><br>
+<a href="https://www.youtube.com/watch?v=9mX1wxYVbJI">More about Louisiana</a><br>
+<a href="https://youtu.be/yI0tbuSnWsU">Vietnam</a><br>
+<a href="https://www.youtube.com/watch?v=KbjhK-uxCaE">Utah</a><br>
+<a href="https://youtu.be/0dhcH7Crf3o">Virginia</a><br>
+<a href="">Jordan(on Facebook only)</a><br>
 </p>
