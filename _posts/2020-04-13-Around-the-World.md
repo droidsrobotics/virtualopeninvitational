@@ -3,7 +3,9 @@ title: Around the World in Five Days
 featured: /assets/images/World.png
 layout: post
 ---
-<p>Starting on April 13, we asked teams to teach us about their city, state or country. We travelled all over the world in just five days.<br>
+<p>Starting on April 13, we asked teams to teach us about their city, state or country. We travelled all over the world in just five days.</p>
+
+<br>
 <br>
 Here are the places we visited: <br>
 <br>
@@ -27,7 +29,7 @@ Here are the places we visited: <br>
 <a href="https://youtu.be/Hx_xFehk8FQ">Texas</a><br>
 Texas 2 (on Facebook only)<br>
 <a href="https://youtu.be/U4_zZVf-1PM">Canada</a><br>
-<a href="https://youtu.be/EZQ8t3QrM7U">India/a><br>
+<a href="https://youtu.be/EZQ8t3QrM7U">India</a><br>
 <a href="https://www.youtube.com/watch?v=xX9nI4E4oZA&feature=youtu.be&fbclid=IwAR12VHZwY5zwfsDefbSZPhgLo8ZgpGeKJssc7FbzeXX2jte-92bD5lLVPX0">Czech Republic</a><br>
 
 
