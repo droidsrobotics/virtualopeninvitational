@@ -23,11 +23,21 @@ Green City Builders, Illinois
 <br>
 Durable Dudes, Illinois
 <br>
-I.C.E. Chips White
+I.C.E. Chips White, Louisiana
 <br>
 Bug Bots, California
 <br>
 The Cosmic Narwhals, California
 <br>
 RoboGirls, Massachusetts
+<br>
+Team X-treme Yellow Hatted Architects, Oregon
+<br>
+LEGO Lions, Florida
+<br>
+I.C.E. Chips Gold, Lousiana
+<br>
+I.C.E. Chips Blue, Louisiana
+<br>
+Incredgirls, California
 </p>
