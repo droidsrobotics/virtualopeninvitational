@@ -8,39 +8,23 @@
 			<!-- Nav -->
 				<nav id="nav">
 					<ul>
-						<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-						<li>
-							<a href="">What's New</a>
+						{% assign current = page.url | downcase | split: '/' %}
+						{% assign test = current[1] | append: "t" %}
+
+						<li {% if test == "t" %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
+						<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="">What's New</a>
 							<ul>
 								<li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-
-		<!-- Nav
-								<li><a href="#">Magna phasellus</a></li>
-								<li><a href="#">Etiam dolore nisl</a></li>
-								<li>
-									<a href="">Phasellus consequat</a>
-									<ul>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-										<li><a href="#">Veroeros feugiat</a></li>
-										<li><a href="#">Nisl sed aliquam</a></li>
-										<li><a href="#">Dolore adipiscing</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Veroeros feugiat</a></li> -->
 							</ul>
 						</li>
-						{% assign current = page.url | downcase | split: '/' %}
 						<li {% if current[1] == 'virtualexpo.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/virtualexpo.html">Virtual Expo</a></li>
 						<li {% if current[1] == 'virtualopen.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/virtualopen.html">Virtual Open</a></li>
-						<li {% if current[1] == 'shareandlearn.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/VOIscoresheet.html">VOI Scores</a></li>
+						<li {% if current[1] == 'virtualpits.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/virtualpits.html">Virtual Pits</a></li>
+						<li {% if current[1] == 'voiscoresheet.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/VOIscoresheet.html">VOI Scores</a></li>
 						<li {% if current[1] == 'shareandlearn.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/shareandlearn.html">Share & Learn</a></li>
 					</ul>
 				</nav>
 
-				<div class="header-img">
+				<!-- <div class="header-img">
 					<img src="{{ site.baseurl }}/assets/images/pic11.jpg">
-				</div>
-
-		</div>
-	</div>
+				</div> -->
