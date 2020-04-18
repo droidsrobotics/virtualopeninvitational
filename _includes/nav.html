@@ -14,9 +14,13 @@
 						<li {% if test == "t" %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
 						<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
 						<li {% if current[1] == 'virtualexpo.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/virtualexpo.html">Virtual Expo</a></li>
-						<li {% if current[1] == 'virtualopen.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/virtualopen.html">Virtual Open</a></li>
-						<li {% if current[1] == 'virtualpits.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/virtualpits.html">Virtual Pits</a></li>
-						<li {% if current[1] == 'voiscoresheet.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/VOIscoresheet.html">VOI Scores</a></li>
+						<li {% if test contains "VOI" %}class='current'{% endif %}><a href="">Virtual Open</a>
+						<ul>
+							<li><a href="{{ site.baseurl }}/VOImainpage.html">Main Page</a></li>
+							<li><a href="{{ site.baseurl }}/VOIvirtualpits.html">Virtual Pits</a></li>
+							<li><a href="{{ site.baseurl }}/VOIscoresheet.html">VOI Scores</a></li>
+						</ul>
+						</li>
 						<li {% if current[1] == 'shareandlearn.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/shareandlearn.html">Share & Learn</a></li>
 					</ul>
 				</nav>
