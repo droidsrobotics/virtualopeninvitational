@@ -53,18 +53,18 @@ Trinidad and Tobago (on Facebook only)<br>
 <a href="https://youtu.be/yI0tbuSnWsU">Vietnam</a><br>
 <a href="https://www.youtube.com/watch?v=KbjhK-uxCaE">Utah</a><br>
 <a href="https://youtu.be/0dhcH7Crf3o">Virginia</a><br>
-Jordan(on Facebook only)<br>
+Jordan (on Facebook only)<br>
 
 
 <br>
 <b>Friday:</b><br>
 <br>
 <a href="https://youtu.be/yI7DYzd4saI">Greece 1</a><br>
-<a href="https://youtu.be/-XddphyP794>Greece 2</a><br>
+<a href="">Greece 2</a><br>
 <a href="https://youtu.be/g59e-WLFndo">Greece 3</a><br>
 <a href="https://docs.google.com/presentation/d/1OpjnprvlXvRfWYKNHWINLi502wb2aKUPPeazxBuY4Nc/edit?fbclid=IwAR0HCZpTbS42ObVvB64_KRkOpM9H5sACKEgDzjHt6MxB-HUbeUInKHwmOq4#slide=id.p">Massachusetts</a><br>
 <a href="https://youtu.be/QoDMADP-HQU">Hawaii</a><br>
-<a href="https://youtu.be/hzZFi276B2I>Ohio</a><br>
-<a href="https://youtu.be/9sgKpthJ2mQ>Colombia</a><br>
+<a href="https://youtu.be/hzZFi276B2I">Ohio</a><br>
+<a href="https://youtu.be/9sgKpthJ2mQ">Colombia</a><br>
 
 </p>
