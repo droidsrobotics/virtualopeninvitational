@@ -28,7 +28,10 @@ tr:nth-child(even) {
 <tr><td>68</td><td>WolfBytes</td><td>Alaska</td></tr>
 <tr><td>69</td><td>The Falcons</td><td>British Columbia, Canada</td></tr>
 <tr><td>70</td><td>Super System</td><td>Central Florida</td></tr>
-<tr><td>71</td><td>SkyClous</td><td>Chile</td></tr>
+<tr><td>71</td><td>SkyCloud</td><td>Chile</td></tr>
+<tr><td>72</td><td></td><td></td></tr>
+<tr><td>73</td><td></td><td></td></tr>
+<tr><td>74</td><td></td><td></td></tr>
 <tr><td>75</td><td>APOLLO</td><td>Morocco</td></tr>
 <tr><td>76</td><td>L-Cubed</td><td>Ontario, Canada</td></tr>
 <tr><td>77</td><td>Brave Robots 3000</td><td>Ontario, Canada</td></tr>
