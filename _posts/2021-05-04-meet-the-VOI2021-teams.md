@@ -4,7 +4,7 @@ featured: /assets/images/VOI2021Teams.png
 layout: post
 ---
 
-<p>We are excited to share that 77 high-performing teams from all around the world will be attending Virtual Open Invitational (VOI) 2021. Virtual Open Invitational is a community-organized event hosted by Droids Robotics 501(c)(3)|Share & Learn. We have teams from over 25 countries and 35 US States attending the all virtual event to be held in June 2021. Between June 12 and June 19, these teams will compete, but also have opportunities to interact with one another. They will share, learn, and celebrate together.
+<p>We are excited to share that 80 high-performing teams from all around the world will be attending Virtual Open Invitational (VOI) 2021. Virtual Open Invitational is a community-organized event hosted by Droids Robotics 501(c)(3)|Share & Learn. We have teams from over 25 countries and 35 US States attending the all virtual event to be held in June 2021. Between June 12 and June 19, these teams will compete, but also have opportunities to interact with one another. They will share, learn, and celebrate together.
 <style>
 table {
   font-family: arial, sans-serif;
@@ -29,12 +29,16 @@ tr:nth-child(even) {
 <tr><td>69</td><td>The Falcons</td><td>British Columbia, Canada</td></tr>
 <tr><td>70</td><td>Super System</td><td>Central Florida</td></tr>
 <tr><td>71</td><td>SkyCloud</td><td>Chile</td></tr>
-<tr><td>72</td><td></td><td></td></tr>
-<tr><td>73</td><td></td><td></td></tr>
-<tr><td>74</td><td></td><td></td></tr>
+<tr><td>72</td><td>LTT Creatronix</td><td>Mexico</td></tr>
+<tr><td>73</td><td></td><td></td>Israel</tr>
+<tr><td>74</td><td></td><td></td>Brazil</tr>
 <tr><td>75</td><td>APOLLO</td><td>Morocco</td></tr>
 <tr><td>76</td><td>L-Cubed</td><td>Ontario, Canada</td></tr>
 <tr><td>77</td><td>Brave Robots 3000</td><td>Ontario, Canada</td></tr>
+<tr><td>78</td><td></td><td>Israel</td>/tr>
+<tr><td>79</td><td></td><td></td></tr>
+<tr><td>80</td><td></td><td></td></tr>
+
 </table>
 
 </p>
