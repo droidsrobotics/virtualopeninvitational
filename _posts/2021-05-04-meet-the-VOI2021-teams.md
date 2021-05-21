@@ -31,7 +31,7 @@ tr:nth-child(even) {
 <tr><td>71</td><td>SkyCloud</td><td>Chile</td></tr>
 <tr><td>72</td><td>LTT Creatronix</td><td>Mexico</td></tr>
 <tr><td>73</td><td></td><td>Israel</td></tr>
-<tr><td>74</td><td></td><td>Brazil</td></tr>
+<tr><td>74</td><td>FrancoDroid</td><td>Brazil</td></tr>
 <tr><td>75</td><td>APOLLO</td><td>Morocco</td></tr>
 <tr><td>76</td><td>L-Cubed</td><td>Ontario, Canada</td></tr>
 <tr><td>77</td><td>Brave Robots 3000</td><td>Ontario, Canada</td></tr>
