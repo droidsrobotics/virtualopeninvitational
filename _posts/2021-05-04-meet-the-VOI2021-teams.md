@@ -1,6 +1,6 @@
 ---
 title: Meet the 2021 Virtual Open Invitational Teams
-featured: /assets/images/VOI2021Teams.png
+featured: /assets/images/VOI2021Teams.jpg
 layout: post
 ---
 
