@@ -43,8 +43,8 @@ tr:nth-child(even) {
 <tr><td>75</td><td>APOLLO</td><td>Morocco</td></tr>
 <tr><td>76</td><td>L-Cubed</td><td>Ontario, Canada</td></tr>
 <tr><td>77</td><td>Brave Robots 3000</td><td>Ontario, Canada</td></tr>
-<tr><td>78</td><td></td><td></td></tr>
-<tr><td>79</td><td></td><td></td></tr>
+<tr><td>78</td><td>Ranger</td><td>Israel</td></tr>
+<tr><td>79</td><td></td><td>Costa Rica</td></tr>
 <tr><td>80</td><td></td><td></td></tr>
 <tr><td>81</td><td></td><td></td></tr>
 
