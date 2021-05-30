@@ -1,6 +1,6 @@
 ---
 title: Meet the 2021 Virtual Open Invitational Teams
-featured: /assets/images/VOI2021Teams.jpg
+featured: <iframe src="https://www.google.com/maps/d/embed?mid=1BGYW2B2URbEzOuwoIK6Ai8AXSha8VgYi" width="640" height="480"></iframe>
 layout: post
 ---
 
@@ -51,4 +51,5 @@ tr:nth-child(even) {
 
 </table>
 
+/assets/images/VOI2021Teams.jpg
 </p>
