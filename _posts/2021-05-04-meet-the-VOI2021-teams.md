@@ -4,7 +4,7 @@ featured:
 layout: post
 ---
 
-<p>We are excited to share that up to 80 high-performing teams from all around the world will be attending Virtual Open Invitational (VOI) 2021. Virtual Open Invitational is a community-organized event hosted by Droids Robotics 501(c)(3)|Share & Learn. We have teams from over 25 countries and 35 US States attending the all virtual event to be held in June 2021. Between June 12 and June 19, these teams will compete, but also have opportunities to interact with one another. They will share, learn, and celebrate together. Click on the interactive map below.
+<p>We are excited to share that up to 80 high-performing teams from all around the world will be attending Virtual Open Invitational (VOI) 2021. Virtual Open Invitational is a community-organized event hosted by Droids Robotics 501(c)(3)|Share & Learn. We have teams from over 25 countries and 35 US States attending the all virtual event to be held in June 2021. Between June 12 and June 19, these teams will compete, but also have opportunities to interact with one another. They will share, learn, and celebrate together. Click on the interactive map below. </p>
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1BGYW2B2URbEzOuwoIK6Ai8AXSha8VgYi" width="580" height="480"></iframe>
 
