@@ -50,11 +50,9 @@ tr:nth-child(even) {
 <tr><td>77</td><td>Brave Robots 3000</td><td>Ontario, Canada</td></tr>
 <tr><td>78</td><td>Ranger</td><td>Israel</td></tr>
 <tr><td>79</td><td>Pura Vida Robotics</td><td>Costa Rica</td></tr>
-<tr><td>80</td><td></td><td></td>Nigeria</tr>
-<tr><td>81</td><td></td><td></td>Ghana</tr>
+<tr><td>80</td><td></td><td>Nigeria</td></tr>
+<tr><td>81</td><td></td><td>Ghana</td></tr>
 
 
 </table>
-
-/assets/images/VOI2021Teams.jpg
 </p>
