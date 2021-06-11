@@ -1,81 +1,516 @@
----
-title: Share & Learn Virtual Competitions
-layout: default
----
-<body class="no-sidebar">
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+	<title>Virtual Pits</title>
+
+</head>
+
+<body>
+	<script>
+		$(function() {
+			$("#topbar").load("../../topbar.php");
+		});
+	</script>
+	<div id="topbar" style="display:none;"></div><br>
+	<div>
+		<script>
+			$(function() {
+				$("#header").load("header.php");
+			});
+		</script>
+		
+			<a href="http://virtualopeninvitational.org/VOImainpage.html"><img src="browsers-back-button.png" class="clickable" style="background-color:white;" width="50px" height="50px"></a><br><br>
+					<div id="header" style="display:none;"></div><br>
+		<section style="padding: 5px 5px 5px 15px;">
+
+			<h2>
 
 
-	<!-- Main -->
-	<div id="main-wrapper">
-		<div class="container">
+				VOI Expert Zone
+			</h2>
+		</section><br>
+		<section>
+			<div class="text-body" style="font-size: 12px;" id="allContent">
+				<p style="font-size: 150%;">
+									<h1></h1>
+				<div id="myModal" class="modal">
 
-			<!-- Content -->
-			<article class="box post">
+					<!-- Modal content -->
+					<!-- <div class="modal-content">
+						<span class="close">&times;</span>
+						<p id='modal-content'>Some text in the Modal..</p>
+					</div> -->
 
-				<p>
-					This area is under renovation.
+				</div>
+				<style>
+					img.map,
+					map area {
+						outline: 1px red;
+					}
 
-					Welcome to the Share & Learn Virtual Open Invitational Exhibit Area. This area will be open between June 12-19, 2021.
-				</p>
+					/* .modal {
+				display: none;
+				position: fixed;
+				z-index: 1;
+				padding-top: 20px;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				overflow: auto;
+				background-color: rgb(0, 0, 0);
+				background-color: rgba(0, 0, 0, 0.4);
+			}
+
+			.modal-content {
+			background-color: #fefefe;
+			margin: auto;
+			padding: 20px;
+			border: 1px solid #888;
+			width: 80%;
+		}
+
+		.close {
+		color: #aaaaaa;
+		float: right;
+		font-size: 28px;
+		font-weight: bold;
+	}
+
+	.close:hover,
+	.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	} */
 
 
-				<section>
-					<header>
-						<h3>VOI 2021 Expert Zone</h3>
-					</header>
-					<style>
-					table.blueTable {
-						border: 1px solid #1C6EA4;
-						background-color: #EEEEEE;
-						width: 100%;
+					button {
+						color: white;
+						background-color: transparent;
+						text-decoration: none;
+					}
+
+					/* a:visited {
+		color: #eeeeee;
+		background-color: transparent;
+		text-decoration: none;
+	}
+ */
+
+					/* Common Styles */
+					.content {
+						color: #fff;
+						font: 100 24px/100px sans-serif;
+						/* height: 167px; */
 						text-align: center;
 					}
-					table.blueTable td, table.blueTable th {
-						border: 1px solid #AAAAAA;
+
+					.content div {
+						height: 167px;
+						width: 200px;
+						margin: 5px;
+						/* margin-bottom: 20px; */
+						border: 1px solid #000000;
 						padding: 3px 2px;
-						width: 12.5%;
-						height: 100px;
+						/* width: 12%;
+		height: 100px; */
 						vertical-align: middle;
+						text-align: center;
+						border-radius: 15px
 					}
-					table.blueTable tbody td {
-						font-size: 13px;
+
+					.red {
+						background: orangered;
 					}
-					table.blueTable td:nth-child(even) {
-						background: #D0E4F5;
+
+					.green {
+						background: yellowgreen;
 					}
-					table.blueTable tfoot td {
+
+					.blue {
+						background: steelblue;
+					}
+
+					/* Flexbox Styles */
+					.content {
+						display: flex;
+						flex-wrap: wrap;
+						align-items: flex-end;
+					}
+
+					.grid-cell:nth-child(2) {
+						margin-top: 0px;
+					}
+
+					.myBtn {
+						border-radius: 15px;
+						cursor: pointer;
+						width: 100%;
+						height: 30%;
+						border: none;
+						color: black;
+						font-weight: bold;
 						font-size: 14px;
+						word-wrap: break-word;
+						background: rgba(255, 255, 255, 0.7);
+						position: relative;
+						bottom: 0px;
+						line-height: normal !important;
 					}
-					table.blueTable tfoot .links {
-						text-align: right;
+
+					.modal {
+						padding: 0 !important;
 					}
-					table.blueTable tfoot .links a{
-						display: inline-block;
-						background: #1C6EA4;
-						color: #FFFFFF;
-						padding: 2px 8px;
-						border-radius: 5px;
+
+					.modal .modal-dialog {
+						width: 100%;
+						max-width: none;
+						height: 100%;
+						margin: 0;
+						padding: 20px;
 					}
-					</style>
 
-					<table class="blueTable">
-						<tbody>
-							<tr>
-								<td> <a href="">Seshan Brothers</a> </td>
-								<td> <a href="">Damien Kee</a> </td>
-								<td> <a href="">Nard Strijbosch</a> </td>
-								<td> <a href="">Anika Vurzoon</a></td>
-								<td> <a href="">Anderson H.Moreira</a></td>
-								<td> <a href="">Marc-André Caron</a> </td>
-								<td> <a href="">Lee Magpili</a> </td>
-								<td> <a href="">Dimi Dekyvere</a></td>
-							</tr>
-						</tbody>
-					</table>
+					.modal .modal-content {
+						height: 100%;
+						border: 0;
+						border-radius: 0;
+					}
+
+					.modal .modal-body {
+						overflow-y: auto;
+					}
+
+					.clickable {
+						-webkit-filter: brightness(100%);
+					}
+
+					.clickable:hover {
+						-webkit-filter: brightness(70%);
+						-webkit-transition: all 1s ease;
+						-moz-transition: all 1s ease;
+						-o-transition: all 1s ease;
+						-ms-transition: all 1s ease;
+						transition: all 1s ease;
+					}
+				</style>
+				<!-- <table class="blueTable"> -->
+				<!-- <tbody> -->
+				<div class="content">
+					<script>
+						// Get the modal
+						// var modal = document.getElementById("myModal");
+
+						// Get the button that opens the modal
+						// var btn = document.getElementById("myBtn");
+
+						// Get the <span> element that closes the modal
+						// var span = document.getElementsByClassName("close")[0];
+
+						// When the user clicks the button, open the modal
+						// btn.onclick = function () {
+						// 	modal.style.display = "block";
+						// }
+
+						// When the user clicks on <span> (x), close the modal
+						// span.onclick = function() {
+						// 	modal.style.display = "none";
+						// }
+
+						// // When the user clicks anywhere outside of the modal, close it
+						// window.onclick = function(event) {
+						// 	if (event.target == modal) {
+						// 		modal.style.display = "none";
+						// 	}
+						// }
 
 
-				</section>
-			</article>
+						const csvStringToArray = (data) => {
+							const re = /(,|\r?\n|\r|^)(?:"([^"]*(?:""[^"]*)*)"|([^,\r\n]*))/gi
+							const result = [
+								[]
+							]
+							let matches
+							while ((matches = re.exec(data))) {
+								if (matches[1].length && matches[1] !== ',') result.push([])
+								result[result.length - 1].push(
+									matches[2] !== undefined ? matches[2].replace(/""/g, '"') : matches[3]
+								)
+							}
+							return result
+						}
 
-		</div>
+dataRaw = `Damien Kee,,"<area target='_blank' alt='Australia' title='Australia'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href="""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Damien-Kee/"" coords=""758,726,999,857"" shape=""rect"">",<area target='_blank' alt='Australia' title='Australia', ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Damien-Kee/,""" coords=""758,726,999,857"" shape=""rect"">",Australia
+Nard Strijbosch,,"<area target='_blank' alt='The Netherlands' title='The Netherlands'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href="""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Nard-Strijbosch/"" coords=""758,726,999,857"" shape=""rect"">",<area target='_blank' alt='The Netherlands' title='The Netherlands', ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Nard-Strijbosch/,""" coords=""758,726,999,857"" shape=""rect"">",The Netherlands
+Anika Brandsma,,"<area target='_blank' alt='The Netherlands' title='The Netherlands'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href="""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Anika-Brandsma/"" coords=""758,726,999,857"" shape=""rect"">",<area target='_blank' alt='The Netherlands' title='The Netherlands', ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Anika-Brandsma/,""" coords=""758,726,999,857"" shape=""rect"">",The Netherlands
+Anderson H. Moreira,,"<area target='_blank' alt='Brazil' title='Brazil'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href="""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Anderson-Moreira/"" coords=""758,726,999,857"" shape=""rect"">",<area target='_blank' alt='Brazil' title='Brazil', ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Anderson-Moreira/,""" coords=""758,726,999,857"" shape=""rect"">",Brazil
+Arvind Seshan,,"<area target='_blank' alt='United States' title='United States'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href="""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Arvind-Seshan/"" coords=""758,726,999,857"" shape=""rect"">",<area target='_blank' alt='United States' title='United States', ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Arvind-Seshan/,""" coords=""758,726,999,857"" shape=""rect"">",United States
+Marc-André Caron,https://github.com/droidsrobotics/VOI2021-Pits/raw/main/caron.png,"<area target='_blank' alt='Canada' title='Canada'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""https://drive.google.com/file/d/1KxGSYV3qihyoMzAl897U90uffgDw_ndL/view?usp=sharing"" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Marc-Caron/"" coords=""758,726,999,857"" shape=""rect"">",<area target='_blank' alt='Canada' title='Canada', ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",https://drive.google.com/file/d/1KxGSYV3qihyoMzAl897U90uffgDw_ndL/view?usp=sharing,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Marc-Caron/,""" coords=""758,726,999,857"" shape=""rect"">",Canada
+Lee Magpili,,"<area target='_blank' alt='Denmark' title='Denmark'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href="""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Lee-Magpili/"" coords=""758,726,999,857"" shape=""rect"">",<area target='_blank' alt='Denmark' title='Denmark', ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Lee-Magpili/,""" coords=""758,726,999,857"" shape=""rect"">",Denmark
+Dimi Dekyvere,https://github.com/droidsrobotics/VOI2021-Pits/raw/main/dimi.png,"<area target='_blank' alt='Belgium' title='Belgium'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""https://drive.google.com/file/d/1SL0TQ8auig3ZPG95C9jNcMrn_C_Ygtum/view?usp=sharing"" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Dimitri-Dekyvere/"" coords=""758,726,999,857"" shape=""rect"">",<area target='_blank' alt='Belgium' title='Belgium', ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",https://drive.google.com/file/d/1SL0TQ8auig3ZPG95C9jNcMrn_C_Ygtum/view?usp=sharing,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Dimitri-Dekyvere/,""" coords=""758,726,999,857"" shape=""rect"">",Belgium
+Sanjay Seshan,,"<area target='_blank' alt='United States' title='United States'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href="""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Sanjay-Seshan/"" coords=""758,726,999,857"" shape=""rect"">",<area target='_blank' alt='United States' title='United States', ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Sanjay-Seshan/,""" coords=""758,726,999,857"" shape=""rect"">",United States`;
+						data = dataRaw.split("\n");
+						parsed = csvStringToArray(dataRaw);
+
+
+						meetTeams = false;
+
+						boothsPerLine = Math.round((window.innerWidth - 150) / 200)
+
+						function createTable(data) {
+							for (i = 0; i < data.length; i++) {
+								team = data[i]
+								if (i % boothsPerLine == 0 && i != 0) {
+									document.write(
+										`
+						</tr>
+						<!--	</tbody>
+						</table>-->
+						`);
+									// if (i % (boothsPerLine*2) == 0) document.write("<div class='content' style='height:80px'></div>");
+									// else document.write("<div class='content' style='height:10px'></div>");
+									// 		document.write(`
+									// 			<div class='content'>
+									// `
+									// 		);
+								} else if (i == 0) {
+									// 		document.write(
+									// 			`
+									// 			<div class='content'>
+									// `
+									// 		);
+								}
+
+								// else if (i==data.length-1) {
+								// 	document.write(
+								// 		`
+								// 	</tr>
+								// 			</tbody>
+								// 		</table>
+								// 		`
+								// 	);
+								// }
+								document.write('<div class="grid-cell clickable" onclick="loadModal(' + i + ');"  style="cursor:pointer;background-image: url(\'' + team[1] + '\');background-size: cover;width:200px;height:167px;"> <div style="height:60%;border:none;"></div><button  class="myBtn clickable"  onclick="loadModal(' + i + ');">' + team[0]  + '</button> ');
+								// if (meetTeams) document.write("<br><a href='"+team[4]+"'>Video Chat</a>")
+								document.write("</div>");
+								// document.write("<img usemap='#image-map" + String(i) + "' width='100%' src='" + team[2] + "'>" + '<map name="image-map"+String(i)+"">' + team[3] + '</map>')
+								if (i % boothsPerLine != boothsPerLine - 1) {
+									// document.write('<div></div>');
+								}
+
+							}
+						}! function() {
+							"use strict";
+
+							function r() {
+								function e() {
+									var r = {
+											width: u.width / u.naturalWidth,
+											height: u.height / u.naturalHeight
+										},
+										a = {
+											width: parseInt(window.getComputedStyle(u, null).getPropertyValue("padding-left"), 10),
+											height: parseInt(window.getComputedStyle(u, null).getPropertyValue("padding-top"), 10)
+										};
+									i.forEach(function(e, t) {
+										var n = 0;
+										o[t].coords = e.split(",").map(function(e) {
+											var t = 1 == (n = 1 - n) ? "width" : "height";
+											return a[t] + Math.floor(Number(e) * r[t])
+										}).join(",")
+									})
+								}
+
+								function t(e) {
+									return e.coords.replace(/ *, */g, ",").replace(/ +/g, ",")
+								}
+
+								function n() {
+									clearTimeout(d), d = setTimeout(e, 250)
+								}
+
+								function r(e) {
+									return document.querySelector('img[usemap="' + e + '"]')
+								}
+								var a = this,
+									o = null,
+									i = null,
+									u = null,
+									d = null;
+								"function" != typeof a._resize ? (o = a.getElementsByTagName("area"), i = Array.prototype.map.call(o, t), u = r("#" + a.name) || r(a.name), a._resize = e, u.addEventListener("load", e, !1), window.addEventListener("focus", e, !1), window.addEventListener("resize", n, !1), window.addEventListener("readystatechange", e, !1), document.addEventListener("fullscreenchange", e, !1), u.width === u.naturalWidth && u.height === u.naturalHeight || e()) : a._resize()
+							}
+
+							function e() {
+								function t(e) {
+									e && (! function(e) {
+										if (!e.tagName) throw new TypeError("Object is not a valid DOM element");
+										if ("MAP" !== e.tagName.toUpperCase()) throw new TypeError("Expected <MAP> tag, found <" + e.tagName + ">.")
+									}(e), r.call(e), n.push(e))
+								}
+								var n;
+								return function(e) {
+									switch (n = [], typeof e) {
+										case "undefined":
+										case "string":
+											Array.prototype.forEach.call(document.querySelectorAll(e || "map"), t);
+											break;
+										case "object":
+											t(e);
+											break;
+										default:
+											throw new TypeError("Unexpected data type (" + typeof e + ").")
+									}
+									return n
+								}
+							}
+							"function" == typeof define && define.amd ? define([], e) : "object" == typeof module && "object" == typeof module.exports ? module.exports = e() : window.imageMapResize = e(), "jQuery" in window && (window.jQuery.fn.imageMapResize = function() {
+								return this.filter("map").each(r).end()
+							})
+						}();
+
+						function loadModal(index) {
+							// alert("hi")
+							content = parsed[index];
+							// modal.style.display = "block";
+							$('#exampleModal').modal('show')
+							h = window.innerHeight - 100;
+							document.getElementById("exampleModalLabel").innerHTML =  content[0];
+							if (content[2] != undefined) document.getElementById("modal-content").innerHTML = "<img id='teamimg' class='map' usemap='#image-map' style='max-width:100%;max-height:100%;' src='" + content[1] + "'>" + '<map name="image-map">' + content[2] + '</map>';
+							else document.getElementById("modal-content").innerHTML = "<img id='teamimg' usemap='#image-map' style='max-width:100%;max-height:" + h + "px;' src='" + content[1] + "'>";
+
+							$(function() {
+								$('.map').maphilight();
+							});
+							$('map').imageMapResize();
+							setTimeout(function() {
+								$(function() {
+									// document.getElementById("teamimg").style.maxWidth="90%";
+									$('.map').maphilight();
+								});
+							}, 500);
+							setTimeout(function() {
+								// document.getElementById("teamimg").style.maxWidth="100%";
+								$('map').imageMapResize();
+							}, 600);
+						}
+
+						createTable(parsed);
+					</script>
+				</div>
+				</tr>
+				<!-- </tbody>
+</table> -->
+				<!-- </tbody>
+</table> -->
+			</div>
+
+			<!-- Button trigger modal -->
+			<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+Launch demo modal
+</button> -->
+
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content" style="overflow-x:hidden;overflow-y:hidden;">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body" style="overflow-x:hidden;overflow-y:hidden;">
+							<p id='modal-content'>Some text in the Modal..</p>
+
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			</center>
+
+			</p>
 	</div>
+
+	</section>
+	<br>
+	<script>
+		$(function() {
+			$("#footer").load("footer.html");
+		});
+	</script>
+	<div id="footer"></div>
+	</div>
+	<script src='js/accordian.js'></script>
+	<script>
+		var styleEl = document.createElement('style');
+
+		// Append <style> element to <head>
+		document.head.appendChild(styleEl);
+
+		// Grab style element's sheet
+		var styleSheet = styleEl.sheet;
+
+		function addStylesheetRules(rules) {
+
+			for (var i = 0; i < rules.length; i++) {
+				var j = 1,
+					rule = rules[i],
+					selector = rule[0],
+					propStr = '';
+				// If the second argument of a rule is an array of arrays, correct our variables.
+				if (Array.isArray(rule[1][0])) {
+					rule = rule[1];
+					j = 0;
+				}
+
+				for (var pl = rule.length; j < pl; j++) {
+					var prop = rule[j];
+					propStr += prop[0] + ': ' + prop[1] + (prop[2] ? ' !important' : '') + ';\n';
+				}
+
+				// Insert CSS Rule
+				styleSheet.insertRule(selector + '{' + propStr + '}', styleSheet.cssRules.length);
+				return (styleSheet.cssRules.length);
+			}
+		}
+
+		function resplit() {
+			width = 2 * Math.floor(document.getElementById("allContent").offsetWidth / 210)
+			prop = '.grid-cell:nth-child(' + width + 'n+2)'
+			if (styleSheet.cssRules.length > 0) {
+				styleSheet.deleteRule(0);
+			}
+			test = addStylesheetRules([
+				[prop, ['margin-top', '80px']]
+			]);
+			// styleSheet.deleteRule(0);
+			// test = addStylesheetRules([['.Grid-cell:nth-child(5n+1)', ['background', 'green'], ['margin-top','50px']]]);
+			// document.getElementById("teamimg").style.maxWidth="90%";
+
+			$(function() {
+				$('.map').maphilight();
+			});
+			// document.getElementById("teamimg").style.maxWidth="100%";
+
+			$('map').imageMapResize();
+		}
+
+		resplit();
+		window.onresize = resplit;
+	</script>
+
+</body>
+
+
+</html>
