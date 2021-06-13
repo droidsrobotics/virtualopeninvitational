@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
 
@@ -8,27 +7,29 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
 	<title>Expert Zone</title>
 
 </head>
 
 <body>
 	<script>
-		$(function() {
+		$(function () {
 			$("#topbar").load("../../topbar.php");
 		});
 	</script>
 	<div id="topbar" style="display:none;"></div><br>
 	<div>
 		<script>
-			$(function() {
+			$(function () {
 				$("#header").load("header.php");
 			});
 		</script>
-		
-			<a href="http://virtualopeninvitational.org/VOImainpage.html"><img src="browsers-back-button.png" class="clickable" style="background-color:white;" width="50px" height="50px"></a><br><br>
-					<div id="header" style="display:none;"></div><br>
+
+		<a href="http://virtualopeninvitational.org/VOImainpage.html"><img src="browsers-back-button.png"
+				class="clickable" style="background-color:white;" width="50px" height="50px"></a><br><br>
+		<div id="header" style="display:none;"></div><br>
 		<section style="padding: 5px 5px 5px 15px;">
 
 			<h2>
@@ -40,7 +41,7 @@
 		<section>
 			<div class="text-body" style="font-size: 12px;" id="allContent">
 				<p style="font-size: 150%;">
-									<h1></h1>
+				<h1></h1>
 				<div id="myModal" class="modal">
 
 					<!-- Modal content -->
@@ -206,6 +207,12 @@
 				<!-- <tbody> -->
 				<div class="content">
 					<script>
+						function detectAppleWebKit() {
+							userAgent = window.navigator.userAgent.toLowerCase()
+							return userAgent.indexOf("applewebkit") != -1 && userAgent.indexOf("chrome") == -1
+						}
+
+						applewebkit = detectAppleWebKit()
 						// Get the modal
 						// var modal = document.getElementById("myModal");
 
@@ -248,7 +255,7 @@
 							return result
 						}
 
-dataRaw = `Damien Kee,https://github.com/droidsrobotics/VOI2021-Pits/raw/main/damien.png,"<area target='_blank' alt='Queensland, Australia' title='Queensland, Australia'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""https://drive.google.com/file/d/14H5Wnw-kSY-Sb9R-8g08W3iBUAXs-paY/view?usp=sharing"" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Damien-Kee/"" coords=""758,726,999,857"" shape=""rect"">","<area target='_blank' alt='Queensland, Australia' title='Queensland, Australia'", ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",https://drive.google.com/file/d/14H5Wnw-kSY-Sb9R-8g08W3iBUAXs-paY/view?usp=sharing,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Damien-Kee/,""" coords=""758,726,999,857"" shape=""rect"">","Queensland, Australia"
+						dataRaw = `Damien Kee,https://github.com/droidsrobotics/VOI2021-Pits/raw/main/damien.png,"<area target='_blank' alt='Queensland, Australia' title='Queensland, Australia'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""https://drive.google.com/file/d/14H5Wnw-kSY-Sb9R-8g08W3iBUAXs-paY/view?usp=sharing"" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Damien-Kee/"" coords=""758,726,999,857"" shape=""rect"">","<area target='_blank' alt='Queensland, Australia' title='Queensland, Australia'", ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",https://drive.google.com/file/d/14H5Wnw-kSY-Sb9R-8g08W3iBUAXs-paY/view?usp=sharing,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Damien-Kee/,""" coords=""758,726,999,857"" shape=""rect"">","Queensland, Australia"
 Nard Strijbosch,https://github.com/droidsrobotics/VOI2021-Pits/raw/main/nard.png,"<area target='_blank' alt='The Netherlands' title='The Netherlands'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""https://drive.google.com/file/d/1fFB6NozZOES07L1WknW87WniHr4vAAJg/view?usp=sharing"" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Nard-Strijbosch/"" coords=""758,726,999,857"" shape=""rect"">",<area target='_blank' alt='The Netherlands' title='The Netherlands', ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",https://drive.google.com/file/d/1fFB6NozZOES07L1WknW87WniHr4vAAJg/view?usp=sharing,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Nard-Strijbosch/,""" coords=""758,726,999,857"" shape=""rect"">",The Netherlands
 Anika Brandsma,https://github.com/droidsrobotics/VOI2021-Pits/raw/main/anika.png,"<area target='_blank' alt='The Netherlands' title='The Netherlands'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""https://drive.google.com/file/d/10B2kqZq32EwHXw7v1CnZcrNIU6ZdiGcU/view?usp=sharing"" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Anika-Brandsma/"" coords=""758,726,999,857"" shape=""rect"">",<area target='_blank' alt='The Netherlands' title='The Netherlands', ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",https://drive.google.com/file/d/10B2kqZq32EwHXw7v1CnZcrNIU6ZdiGcU/view?usp=sharing,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Anika-Brandsma/,""" coords=""758,726,999,857"" shape=""rect"">",The Netherlands
 Anderson H. Moreira,https://github.com/droidsrobotics/VOI2021-Pits/raw/main/anderson.png,"<area target='_blank' alt='Brazil' title='Brazil'  coords=""753,681,1003,621"" shape=""rect""><area target=""_blank"" alt=""Expert video"" title=""Expert video"" href="""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly""><area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""https://www.robotmak3rs.com/Anderson-Moreira/"" coords=""758,726,999,857"" shape=""rect"">",<area target='_blank' alt='Brazil' title='Brazil', ," coords=""753,681,1003,621"" shape=""rect"">","<area target=""_blank"" alt=""Expert video"" title=""Expert video"" href=""",,""" coords=""247,194,246,823,754,806,751,610,1005,610,1005,819,1104,819,1106,192,680,219"" shape=""poly"">","<area target=""_blank"" alt=""Expert Biography"" title=""Expert Biography"" href=""",https://www.robotmak3rs.com/Anderson-Moreira/,""" coords=""758,726,999,857"" shape=""rect"">",Brazil
@@ -306,7 +313,7 @@ Dan Meehan,https://github.com/droidsrobotics/VOI2021-Pits/raw/main/dan.png,"<are
 								// 		`
 								// 	);
 								// }
-								document.write('<div class="grid-cell clickable" onclick="loadModal(' + i + ');"  style="cursor:pointer;background-image: url(\'' + team[1] + '\');background-size: cover;width:200px;height:167px;"> <div style="height:60%;border:none;"></div><button  class="myBtn clickable"  onclick="loadModal(' + i + ');">' + team[0]  + '</button> ');
+								document.write('<div class="grid-cell clickable" onclick="loadModal(' + i + ');"  style="cursor:pointer;background-image: url(\'' + team[1] + '\');background-size: cover;width:200px;height:167px;"> <div style="height:60%;border:none;"></div><button  class="myBtn clickable"  onclick="loadModal(' + i + ');">' + team[0] + '</button> ');
 								// if (meetTeams) document.write("<br><a href='"+team[4]+"'>Video Chat</a>")
 								document.write("</div>");
 								// document.write("<img usemap='#image-map" + String(i) + "' width='100%' src='" + team[2] + "'>" + '<map name="image-map"+String(i)+"">' + team[3] + '</map>')
@@ -315,22 +322,22 @@ Dan Meehan,https://github.com/droidsrobotics/VOI2021-Pits/raw/main/dan.png,"<are
 								}
 
 							}
-						}! function() {
+						} ! function () {
 							"use strict";
 
 							function r() {
 								function e() {
 									var r = {
-											width: u.width / u.naturalWidth,
-											height: u.height / u.naturalHeight
-										},
+										width: u.width / u.naturalWidth,
+										height: u.height / u.naturalHeight
+									},
 										a = {
 											width: parseInt(window.getComputedStyle(u, null).getPropertyValue("padding-left"), 10),
 											height: parseInt(window.getComputedStyle(u, null).getPropertyValue("padding-top"), 10)
 										};
-									i.forEach(function(e, t) {
+									i.forEach(function (e, t) {
 										var n = 0;
-										o[t].coords = e.split(",").map(function(e) {
+										o[t].coords = e.split(",").map(function (e) {
 											var t = 1 == (n = 1 - n) ? "width" : "height";
 											return a[t] + Math.floor(Number(e) * r[t])
 										}).join(",")
@@ -358,13 +365,13 @@ Dan Meehan,https://github.com/droidsrobotics/VOI2021-Pits/raw/main/dan.png,"<are
 
 							function e() {
 								function t(e) {
-									e && (! function(e) {
+									e && (! function (e) {
 										if (!e.tagName) throw new TypeError("Object is not a valid DOM element");
 										if ("MAP" !== e.tagName.toUpperCase()) throw new TypeError("Expected <MAP> tag, found <" + e.tagName + ">.")
 									}(e), r.call(e), n.push(e))
 								}
 								var n;
-								return function(e) {
+								return function (e) {
 									switch (n = [], typeof e) {
 										case "undefined":
 										case "string":
@@ -379,7 +386,7 @@ Dan Meehan,https://github.com/droidsrobotics/VOI2021-Pits/raw/main/dan.png,"<are
 									return n
 								}
 							}
-							"function" == typeof define && define.amd ? define([], e) : "object" == typeof module && "object" == typeof module.exports ? module.exports = e() : window.imageMapResize = e(), "jQuery" in window && (window.jQuery.fn.imageMapResize = function() {
+							"function" == typeof define && define.amd ? define([], e) : "object" == typeof module && "object" == typeof module.exports ? module.exports = e() : window.imageMapResize = e(), "jQuery" in window && (window.jQuery.fn.imageMapResize = function () {
 								return this.filter("map").each(r).end()
 							})
 						}();
@@ -390,21 +397,24 @@ Dan Meehan,https://github.com/droidsrobotics/VOI2021-Pits/raw/main/dan.png,"<are
 							// modal.style.display = "block";
 							$('#exampleModal').modal('show')
 							h = window.innerHeight - 100;
-							document.getElementById("exampleModalLabel").innerHTML =  content[0];
+							document.getElementById("exampleModalLabel").innerHTML = content[0];
 							if (content[2] != undefined) document.getElementById("modal-content").innerHTML = "<img id='teamimg' class='map' usemap='#image-map' style='max-width:100%;max-height:100%;' src='" + content[1] + "'>" + '<map name="image-map">' + content[2] + '</map>';
 							else document.getElementById("modal-content").innerHTML = "<img id='teamimg' usemap='#image-map' style='max-width:100%;max-height:" + h + "px;' src='" + content[1] + "'>";
 
-							$(function() {
-								$('.map').maphilight();
-							});
-							$('map').imageMapResize();
-							setTimeout(function() {
-								$(function() {
-									// document.getElementById("teamimg").style.maxWidth="90%";
+							if (!applewebkit) {
+								$(function () {
 									$('.map').maphilight();
 								});
+							}
+							$('map').imageMapResize();
+							setTimeout(function () {
+								if (!applewebkit) {
+									$(function () {
+										$('.map').maphilight();
+									});
+								}
 							}, 500);
-							setTimeout(function() {
+							setTimeout(function () {
 								// document.getElementById("teamimg").style.maxWidth="100%";
 								$('map').imageMapResize();
 							}, 600);
@@ -426,7 +436,8 @@ Launch demo modal
 </button> -->
 
 			<!-- Modal -->
-			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+				aria-hidden="true">
 				<div class="modal-dialog">
 					<div class="modal-content" style="overflow-x:hidden;overflow-y:hidden;">
 						<div class="modal-header">
@@ -453,7 +464,7 @@ Launch demo modal
 	</section>
 	<br>
 	<script>
-		$(function() {
+		$(function () {
 			$("#footer").load("footer.html");
 		});
 	</script>
@@ -506,9 +517,11 @@ Launch demo modal
 			// test = addStylesheetRules([['.Grid-cell:nth-child(5n+1)', ['background', 'green'], ['margin-top','50px']]]);
 			// document.getElementById("teamimg").style.maxWidth="90%";
 
-			$(function() {
-				$('.map').maphilight();
-			});
+			if (!applewebkit) {
+				$(function () {
+					$('.map').maphilight();
+				});
+			}
 			// document.getElementById("teamimg").style.maxWidth="100%";
 
 			$('map').imageMapResize();

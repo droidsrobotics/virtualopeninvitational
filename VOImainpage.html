@@ -9,12 +9,20 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<script type="text/javascript"
 		src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<script type="text/javascript">
-		$(function () {
-			$('.map').maphilight();
-		});
+		function detectAppleWebKit() {
+			userAgent = window.navigator.userAgent.toLowerCase()
+			return userAgent.indexOf("applewebkit") != -1 && userAgent.indexOf("chrome") == -1
+		}
+
+		applewebkit = detectAppleWebKit()
+		if (!applewebkit) {
+			$(function () {
+				$('.map').maphilight();
+			});
+		}
 	</script>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,23 +30,23 @@
 </head>
 
 <body style="width:100%;height:100%;">
-	<a style="position:absolute;z-index:10000;top:0;left:0;" href="index.html"> <img class="clickable" src="browsers-back-button.png"
-			width="50px" height="50px"> </a>
+	<a style="position:absolute;z-index:10000;top:0;left:0;" href="index.html"> <img class="clickable"
+			src="browsers-back-button.png" width="50px" height="50px"> </a>
 
-<style>
-						.clickable {
-						-webkit-filter: brightness(100%);
-					}
+	<style>
+		.clickable {
+			-webkit-filter: brightness(100%);
+		}
 
-					.clickable:hover {
-						-webkit-filter: brightness(70%);
-						-webkit-transition: all 1s ease;
-						-moz-transition: all 1s ease;
-						-o-transition: all 1s ease;
-						-ms-transition: all 1s ease;
-						transition: all 1s ease;
-					}
-</style>
+		.clickable:hover {
+			-webkit-filter: brightness(70%);
+			-webkit-transition: all 1s ease;
+			-moz-transition: all 1s ease;
+			-o-transition: all 1s ease;
+			-ms-transition: all 1s ease;
+			transition: all 1s ease;
+		}
+	</style>
 
 
 
@@ -84,7 +92,8 @@
 					href="https://www.google.com/maps/d/edit?hl=en&mid=1BGYW2B2URbEzOuwoIK6Ai8AXSha8VgYi&mid=1BGYW2B2URbEzOuwoIK6Ai8AXSha8VgYi&ll=4.08659005254399%2C-41.17741439648335&z=3"
 					coords="265,98,625,407,1063,412,1440,101" shape="poly">
 				<area target="" alt="VOI Scores &amp; Awards" title="VOI Scores &amp; Awards"
-					href="https://tournament.virtualopeninvitational.org/tournaments/VOI/readscores.html" coords="1,488,145,665" shape="rect">
+					href="https://tournament.virtualopeninvitational.org/tournaments/VOI/readscores.html"
+					coords="1,488,145,665" shape="rect">
 				<area target="_blank" alt="FLLTutorials.com" title="FLLTutorials.com" href="https://flltutorials.com/"
 					coords="2,425,142,483" shape="rect">
 			</map>
@@ -97,10 +106,11 @@
 
 
 				function resplit() {
-
-					$(function () {
-						$('.map').maphilight();
-					});
+					if (!applewebkit) {
+						$(function () {
+							$('.map').maphilight();
+						});
+					}
 					// document.getElementById("teamimg").style.maxWidth="100%";
 
 					$('map').imageMapResize();
