@@ -38,7 +38,7 @@ layout: post
     <td>
       1</td>
     <td>Snutgir-ZoomZoomZap</td>
-    <td>Pennsylvania, USA"</td>
+    <td>Pennsylvania, USA</td>
   </tr>
   <tr>
     <td>
