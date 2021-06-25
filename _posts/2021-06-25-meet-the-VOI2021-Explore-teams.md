@@ -110,7 +110,7 @@ layout: post
     <td>
       13</td>
     <td>Creative Team</td>
-    <td>Morocco</td>
+    <td>Fès, Morocco</td>
   </tr>
   <tr>
     <td>
@@ -170,7 +170,7 @@ layout: post
     <td>
       23</td>
     <td>FPF vega</td>
-    <td>Morocco</td>
+    <td>Fès, Morocco</td>
   </tr>
   <tr>
     <td>
