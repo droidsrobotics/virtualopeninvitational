@@ -1,21 +1,22 @@
 ---
-title: Meet the Organizers
+title: Meet the 2020 Organizers
 featured: /assets/images/Organizers.png
 layout: post
 ---
 <p>The Main Organization Committee is made up of the following people:
 
 <br>
-Asha, Pennsylvania: Tournament Director<br>
-Patti, Nevada: Judge Advisor<br>
-Faith, South Carolina: Judge Advisor<br>
-Jamie, Nevada: Logistics <br>
-Steve, Virginia: Head Referee<br>
+Arvind, Pennsylvania: Tournament Director (Activities and Live Events)<br>
+Sanjay, Pennsylvania: Tournament Director (Website, Pits, Scoring)<br>
+Asha, Pennsylvania: Tournament Director (Team Management)<br>
 Alan, Israel: Head Referee<br>
+Steve, Virginia: Head Referee<br>
+Jamie, Nevada: Logistics <br>
+Patti, Nevada: Judge Advisor <br>
+Faith, South Carolina: Judge Advisor<br>
 </p>
 
 <p>
-Student Organizers: Sanjay (Pennsylvania), Arvind (Pennsylvania) <br>
 Announcers: Jamie (Nevada), Aaron (South Carolina), Alex (Ohio), Nick (California) <br>
 Emcees: Maureen (Denmark), John (Denmark), Alex (Ohio), Krysta (Canada) <br>
 Keynote Speakers: Mark (Florida), Lee (Denmark) <br>
