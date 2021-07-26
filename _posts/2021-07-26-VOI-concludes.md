@@ -19,4 +19,5 @@ https://www.bcsdschools.net/site/default.aspx?PageType=3&DomainID=334&ModuleInst
 <a href="https://www.tapinto.net/towns/livingston/sections/education/articles/livingston-s-exit-6-robotics-wins-innovative-robot-award-at-2021-virtual-open-invitational?fbclid=IwAR21PLNjzt6EzCBEnua2Kx7sSDULKQO42IY51Am5yWYExX72QOllcv5mplg">New Jersey</a>,
 <a href="https://tigertechsrobotics.com/2021/06/26/tiger-techs-compete-at-virtual-open-invitational/">Pennsylvania</a>,
 <a href="https://firstisrael.org.il/fll/challenge/2021-05-25">Israel</a>,
-<a href="https://www.journal-topics.com/articles/lincoln-middle-school-robotic-team-wins-state-championship/?fbclid=IwAR2NAFF7WXrvg_5PtMwUmPAqJoSBfLM3PZK5HgW1r_kXHJvqoniXLVV01gw">Illinois</a>
+<a href="https://www.journal-topics.com/articles/lincoln-middle-school-robotic-team-wins-state-championship/?fbclid=IwAR2NAFF7WXrvg_5PtMwUmPAqJoSBfLM3PZK5HgW1r_kXHJvqoniXLVV01gw">Illinois</a>,
+<a href="http://umd.uniminuto.edu/web/pcis/-/colombia-estuvo-presente-en-el-virtual-open-invitational">Colombia</a>
