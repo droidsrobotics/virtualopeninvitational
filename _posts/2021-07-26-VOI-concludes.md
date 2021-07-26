@@ -5,7 +5,7 @@ layout: post
 ---
 <p>Virtual Open Invitational (VOI) was a breakthrough event for many reasons. For the first time in the history of FIRST LEGO League, there was an all-virtual international competition for teams. It was also a 100% community-led effort with no official support from the FIRST organization. After the 2020 event for 48 teams, over 200 people reached out to us to ask us about how to run virtual youth robotics competitions. These regions adopted many of the resources and ideas from VOI. The key learnings from the event were shared so that everyone could improve. We were even contacted by WRO and BLAST Games organizers for assistance. As robotics competitions worldwide ground to a halt, VOI provided the structure, the hope, and the inspiration for others to move forward. The 2021 VOI event was even better than the 2020 event. With more time to plan and more collaborators, the event almost doubled in size. With funding from Amazon, we were also able to give 80 teams real medals and LEGO trophies. Thank you to Amazon for the funding, and thank you to the MINDSTORMS team in Billund and the ROBOTMAK3RS around the world for your support. </p>
 
-Here is the feedback received from the teams in <a href="assets/images/VOI2020Feedback.pdf">awards2021</a> and <a href="https://youtu.be/mlM9Bk8b8bo">2021</a>.
+Here is the feedback received from the teams in <a href="/assets/images/VOI2020Feedback.pdf">2020</a> and <a href="https://youtu.be/mlM9Bk8b8bo">2021</a>.
 
 Here are some press that our VOI teams have received.
 <a href="https://www.wtap.com/2021/06/06/local-robotics-team-competing-internationally/?fbclid=IwAR12ayYXMlobAf-7WcsO_IEy8_P_wd6K2YVdP-PlEdXWd492fvsvf7ReKLo">West Virginia</a>,
