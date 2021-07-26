@@ -1,5 +1,5 @@
 ---
-title: Virtual Open Invitational Final Thoughts
+title: Virtual Open Invitational History and Impact
 featured: /assets/images/
 layout: post
 ---
